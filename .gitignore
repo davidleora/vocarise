@@ -38,5 +38,22 @@ Thumbs.db
 # 環境変数ファイル
 /backend/.env
 
+# フロントエンド（React）の無視項目
+
+# ローカルパッケージとビルドファイル
+/frontend/node_modules
+/frontend/build/
+/frontend/dist/
+
+# 環境変数ファイル
+/frontend/.env
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+
+# ログファイル
+/frontend/npm-debug.log*
+
 # Docker 無視項目
 /db-data
