@@ -8,9 +8,9 @@
 /db/*.sqlite3-journal
 /public/assets
 /node_modules
-.byebug_history
 
-# 特定のディレクトリの除外
+# backend プロジェクトの設定
+backend/node_modules
 backend/log/*
 backend/tmp/*
 backend/config/master.key
@@ -20,4 +20,8 @@ backend/db/*.sqlite3-journal
 backend/public/assets
 backend/.byebug_history
 
+# frontend プロジェクトの設定
 frontend/node_modules
+frontend/log/*
+frontend/tmp/*
+frontend/public/assets
