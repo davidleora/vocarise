@@ -1,0 +1,23 @@
+# 共通の除外ファイル
+.DS_Store
+/log/*
+/tmp/*
+/config/master.key
+/config/credentials.yml.enc
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/public/assets
+/node_modules
+.byebug_history
+
+# 特定のディレクトリの除外
+backend/log/*
+backend/tmp/*
+backend/config/master.key
+backend/config/credentials.yml.enc
+backend/db/*.sqlite3
+backend/db/*.sqlite3-journal
+backend/public/assets
+backend/.byebug_history
+
+frontend/node_modules
